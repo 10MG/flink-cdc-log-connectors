@@ -115,4 +115,4 @@ mvn clean install -DskipTests
 
 ## 文档
 
-更多用法和说明可参考 https://ververica.github.io/flink-cdc-connectors/，flink-cdc-log-connectors除了使用的类或者连接器不一样之外，其他用法与flink-cdc-log-connectors完全一样。
+更多用法和说明可参考 [https://ververica.github.io/flink-cdc-connectors](https://ververica.github.io/flink-cdc-connectors)，flink-cdc-log-connectors除了使用的类或者连接器不一样之外，其他用法与flink-cdc-log-connectors完全一样。
