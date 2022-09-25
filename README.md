@@ -1,5 +1,16 @@
 # CDC Log Connectors for Apache Flink<sup>®</sup>
 
+<p align="left">
+    <a href="https://mvnrepository.com/artifact/cn.tenmg/flink-cdc-log-connectors">
+        <img alt="maven" src="https://img.shields.io/maven-central/v/cn.tenmg/flink-cdc-log-connectors.svg?style=flat-square">
+    </a>
+    <a target="_blank" href="LICENSE"><img src="https://img.shields.io/:license-Apache%202.0-blue.svg"></a>
+    <a target="_blank" href="https://jq.qq.com/?_wv=1027&k=wOOIp0CR"><img src="https://img.shields.io/badge/QQ群-531812227-blue"></a>
+    <a target="_blank" href='https://gitee.com/tenmg/flink-cdc-log-connectors'>
+        <img src="https://gitee.com/tenmg/flink-cdc-log-connectors/badge/star.svg?theme=white" />
+    </a>
+</p>
+
 flink-cdc-log-connectors是基于flink-cdc-connectors改造的一组Apache Flink<sup>®</sup>源连接器。flink-cdc-log-connectors集成了Debezium作为捕获数据变更的引擎，因此它可以充分利用Debezium的能力。使用它能够获取到flink-cdc-connectors所不支持的`op`属性，并能够与flink-cdc-connectors并列使用。
 
 本自述文件旨在简要介绍用于Apache Flink<sup>®</sup>的CDC Log连接器的核心功能。它的使用方法除了连接器不同以外，其它跟flink-cdc-connectors完全一样。有关flink-cdc-connectors的完整详细的文档，参见[flink-cdc-connectors文档](https://ververica.github.io/flink-cdc-connectors/master/)。
