@@ -92,7 +92,7 @@ public class MySqlSourceExample {
 
 ## 使用源码编译
 
-- 环境准备:
+- 环境准备：
     - git
     - Maven
     - Java 8及以上
