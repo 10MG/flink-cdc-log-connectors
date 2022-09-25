@@ -12,7 +12,7 @@ flink-cdc-log-connectors是基于flink-cdc-connectors改造的一组Apache Flink
 
 ## Table/SQL API的用法
 
-我们需要几个步骤来使用提供的连接器设置Flink集群
+我们需要几个步骤使用提供的连接器来设置Flink集群
 
 1. 安装1.12+和Java 8+版本的Flink集群。
 2. 从[下载页面](https://mvnrepository.com/artifact/cn.tenmg)下载SQL连接器的jar（或自行构建）。
