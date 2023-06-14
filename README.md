@@ -38,7 +38,8 @@ CREATE TABLE mysql_binlog (
  id INT NOT NULL,
  name STRING,
  description STRING,
- weight DECIMAL(10,3)
+ weight DECIMAL(10,3),
+ op STRING
 ) WITH (
  'connector' = 'mysql-cdc-log',
  'hostname' = 'localhost',
